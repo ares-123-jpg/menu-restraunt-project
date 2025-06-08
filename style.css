@@ -61,7 +61,7 @@ ul li a:hover{
     border-radius: 15px;
     color:white;
 }
-.content a , .about-contant .content1 a:hover{
+.content .btn-primary:hover{
     background-color: #e4b95b;
 }
 .Home::before{
@@ -128,6 +128,9 @@ header * {
     border-radius: 15px;
     color:white;
 }
+.about-contant .content1 a:hover{
+    background-color: #e4b95b;
+}
 .content2 {
     
     width:450px;
@@ -155,21 +158,27 @@ header * {
     color:white;
     font-size: 14px;
 }
-.offers-items{
+ .offers-items{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+    color:white;
+} 
 .offers-items img{
     width:200px;
 }
-.offers-items h3 {
+.offers .offers-items h3 {
     font-size: 30px;
-    margin-bottom: 13px;
-    color: white;
+    margin: 15px 0;
+    
 }
-.offers-items  p{
-    color:white;
-    font-size: 14px;
+.offers-items p{
+    font-size:14px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+.offers-items span{
+    font-size: 18px;
+    margin-left: 5px;
 }
