@@ -135,8 +135,7 @@ header * {
     background-color: #e4b95b;
 }
 .content2 {
-    
-    width:450px;
+    width:50%;
 }
 /*  end About Section  */
 /* start offers section */
@@ -147,7 +146,7 @@ header * {
     align-items: center;
     background:url(img/offer-background.jpg) center center/cover fixed;
 }
-.offers .title2,.menu .title2
+.offers .title2,#menu .title2
 {
     /* margin-top: 60px; */
     text-align: center;
